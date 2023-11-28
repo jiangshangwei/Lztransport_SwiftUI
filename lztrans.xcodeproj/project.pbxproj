@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47DC7FD1C39E4310C0930A9E /* Pods_lztrans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87395883C4CE66CDAF3015E6 /* Pods_lztrans.framework */; };
+		7B55212F2A8C6F2800271A46 /* Sublayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55212E2A8C6F2800271A46 /* Sublayout.swift */; };
+		7B7DBDD12A8B5D1100691AF7 /* IndexAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7DBDD02A8B5D1100691AF7 /* IndexAPI.swift */; };
+		7BC385C62A8DBEE2000FC11E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC385C52A8DBEE2000FC11E /* RegistrationView.swift */; };
+		7BEF5EDA2A53B33F00977C71 /* lztransApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF5ED92A53B33F00977C71 /* lztransApp.swift */; };
+		7BEF5EDC2A53B33F00977C71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF5EDB2A53B33F00977C71 /* ContentView.swift */; };
+		7BEF5EDE2A53B34100977C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEF5EDD2A53B34100977C71 /* Assets.xcassets */; };
+		7BEF5EE12A53B34100977C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEF5EE02A53B34100977C71 /* Preview Assets.xcassets */; };
+		7BEF5EE32A53B34100977C71 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF5EE22A53B34100977C71 /* Persistence.swift */; };
+		7BEF5EE62A53B34100977C71 /* lztrans.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF5EE42A53B34100977C71 /* lztrans.xcdatamodeld */; };
+		7BF2346A2A53BF6000CB46F7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF234692A53BF6000CB46F7 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A48EEF2903F9E55B9CAE2BC /* Pods-lztrans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lztrans.debug.xcconfig"; path = "Target Support Files/Pods-lztrans/Pods-lztrans.debug.xcconfig"; sourceTree = "<group>"; };
+		7B55212E2A8C6F2800271A46 /* Sublayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sublayout.swift; sourceTree = "<group>"; };
+		7B7DBDD02A8B5D1100691AF7 /* IndexAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexAPI.swift; sourceTree = "<group>"; };
+		7B8282E22A8B1DF40050237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7BC385C52A8DBEE2000FC11E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		7BEF5ED62A53B33F00977C71 /* lztrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lztrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEF5ED92A53B33F00977C71 /* lztransApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lztransApp.swift; sourceTree = "<group>"; };
+		7BEF5EDB2A53B33F00977C71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BEF5EDD2A53B34100977C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BEF5EE02A53B34100977C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BEF5EE22A53B34100977C71 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7BEF5EE52A53B34100977C71 /* lztrans.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lztrans.xcdatamodel; sourceTree = "<group>"; };
+		7BF234692A53BF6000CB46F7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		87395883C4CE66CDAF3015E6 /* Pods_lztrans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lztrans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE458F71F0473F364BF1797F /* Pods-lztrans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lztrans.release.xcconfig"; path = "Target Support Files/Pods-lztrans/Pods-lztrans.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BEF5ED32A53B33F00977C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DC7FD1C39E4310C0930A9E /* Pods_lztrans.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F91B78B3CDF1DD1553BE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87395883C4CE66CDAF3015E6 /* Pods_lztrans.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B08DFB02A8A305C009D3BC3 /* NetUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7B7DBDD02A8B5D1100691AF7 /* IndexAPI.swift */,
+			);
+			name = NetUtils;
+			sourceTree = "<group>";
+		};
+		7B55212D2A8C697900271A46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B55212E2A8C6F2800271A46 /* Sublayout.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7BEF5ECD2A53B33F00977C71 = {
+			isa = PBXGroup;
+			children = (
+				7BEF5ED82A53B33F00977C71 /* lztrans */,
+				7BEF5ED72A53B33F00977C71 /* Products */,
+				EA9BD29ABCE5CBE08F17B177 /* Pods */,
+				53F91B78B3CDF1DD1553BE42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BEF5ED72A53B33F00977C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BEF5ED62A53B33F00977C71 /* lztrans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BEF5ED82A53B33F00977C71 /* lztrans */ = {
+			isa = PBXGroup;
+			children = (
+				7B55212D2A8C697900271A46 /* Model */,
+				7B8282E22A8B1DF40050237D /* Info.plist */,
+				7B08DFB02A8A305C009D3BC3 /* NetUtils */,
+				7BEF5ED92A53B33F00977C71 /* lztransApp.swift */,
+				7BEF5EDB2A53B33F00977C71 /* ContentView.swift */,
+				7BC385C52A8DBEE2000FC11E /* RegistrationView.swift */,
+				7BEF5EDD2A53B34100977C71 /* Assets.xcassets */,
+				7BEF5EE22A53B34100977C71 /* Persistence.swift */,
+				7BEF5EE42A53B34100977C71 /* lztrans.xcdatamodeld */,
+				7BF234692A53BF6000CB46F7 /* Extension.swift */,
+				7BEF5EDF2A53B34100977C71 /* Preview Content */,
+			);
+			path = lztrans;
+			sourceTree = "<group>";
+		};
+		7BEF5EDF2A53B34100977C71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BEF5EE02A53B34100977C71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA9BD29ABCE5CBE08F17B177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A48EEF2903F9E55B9CAE2BC /* Pods-lztrans.debug.xcconfig */,
+				FE458F71F0473F364BF1797F /* Pods-lztrans.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BEF5ED52A53B33F00977C71 /* lztrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEF5EE92A53B34100977C71 /* Build configuration list for PBXNativeTarget "lztrans" */;
+			buildPhases = (
+				2A86FF3B203E7A250030EDFC /* [CP] Check Pods Manifest.lock */,
+				7BEF5ED22A53B33F00977C71 /* Sources */,
+				7BEF5ED32A53B33F00977C71 /* Frameworks */,
+				7BEF5ED42A53B33F00977C71 /* Resources */,
+				3C13B3C769C2B436EAD1A463 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lztrans;
+			productName = lztrans;
+			productReference = 7BEF5ED62A53B33F00977C71 /* lztrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BEF5ECE2A53B33F00977C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7BEF5ED52A53B33F00977C71 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BEF5ED12A53B33F00977C71 /* Build configuration list for PBXProject "lztrans" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BEF5ECD2A53B33F00977C71;
+			productRefGroup = 7BEF5ED72A53B33F00977C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BEF5ED52A53B33F00977C71 /* lztrans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BEF5ED42A53B33F00977C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEF5EE12A53B34100977C71 /* Preview Assets.xcassets in Resources */,
+				7BEF5EDE2A53B34100977C71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A86FF3B203E7A250030EDFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lztrans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C13B3C769C2B436EAD1A463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lztrans/Pods-lztrans-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lztrans/Pods-lztrans-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lztrans/Pods-lztrans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BEF5ED22A53B33F00977C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEF5EE32A53B34100977C71 /* Persistence.swift in Sources */,
+				7B7DBDD12A8B5D1100691AF7 /* IndexAPI.swift in Sources */,
+				7BEF5EDC2A53B33F00977C71 /* ContentView.swift in Sources */,
+				7BF2346A2A53BF6000CB46F7 /* Extension.swift in Sources */,
+				7B55212F2A8C6F2800271A46 /* Sublayout.swift in Sources */,
+				7BEF5EE62A53B34100977C71 /* lztrans.xcdatamodeld in Sources */,
+				7BEF5EDA2A53B33F00977C71 /* lztransApp.swift in Sources */,
+				7BC385C62A8DBEE2000FC11E /* RegistrationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BEF5EE72A53B34100977C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BEF5EE82A53B34100977C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BEF5EEA2A53B34100977C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A48EEF2903F9E55B9CAE2BC /* Pods-lztrans.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lztrans/Preview Content\"";
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lztrans/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcns.swift.lztrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BEF5EEB2A53B34100977C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE458F71F0473F364BF1797F /* Pods-lztrans.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lztrans/Preview Content\"";
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lztrans/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcns.swift.lztrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BEF5ED12A53B33F00977C71 /* Build configuration list for PBXProject "lztrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEF5EE72A53B34100977C71 /* Debug */,
+				7BEF5EE82A53B34100977C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEF5EE92A53B34100977C71 /* Build configuration list for PBXNativeTarget "lztrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEF5EEA2A53B34100977C71 /* Debug */,
+				7BEF5EEB2A53B34100977C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BEF5EE42A53B34100977C71 /* lztrans.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BEF5EE52A53B34100977C71 /* lztrans.xcdatamodel */,
+			);
+			currentVersion = 7BEF5EE52A53B34100977C71 /* lztrans.xcdatamodel */;
+			path = lztrans.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BEF5ECE2A53B33F00977C71 /* Project object */;
+}
